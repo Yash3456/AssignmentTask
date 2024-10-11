@@ -1,0 +1,98 @@
+.Form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10% 0;
+    width: 100vw;
+}
+
+
+.heading1{
+    font-size: 16px;
+}
+
+.heading2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.heading3{
+    display: none;
+}
+
+.firstsection{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    border-radius: 5px;
+}
+
+.firstsection2{
+    display: none;
+}
+
+.firstname{
+    margin-right:20px;
+    padding: 10px 10px;
+    border-radius: 2px;
+    border:2px solid #E6E6E6;
+    
+    border-radius: 5px;
+}
+
+.selectoption{
+    width: 180px;
+    margin-right: 20px;
+    height: 40px;
+    background-color: white;
+    border:2px solid #E6E6E6;
+    color: #737373;
+    padding:0 10px;
+    
+}
+
+.message{
+    width: 84%;
+    height: 20vh;
+    padding: 10px 20px;
+    font-size: 14px;
+    
+}
+
+.appointment{
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: #23A6F0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 740px){
+    .heading2{
+        font-size: 24px;
+        display: none;
+    }
+
+    .heading1{
+        display: none;
+    }
+
+    .heading3{
+        display: block;
+    }
+
+    .firstsection{
+        display: none;
+    }
+
+    .firstsection2{
+        display: block;
+    }
+
+}
